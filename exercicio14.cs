@@ -6,3 +6,7 @@ if (qntPagar > 200)
 {
     MessageBox.Show("Voce deverá pagar: " + (qntPagar - desconto).ToString("C"));
 }
+else
+{
+    MessageBox.Show("Voce deverá pagar: " + qntPagar.ToString("C"));
+}
