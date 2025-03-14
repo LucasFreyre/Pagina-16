@@ -1,0 +1,3 @@
+float raio = float.Parse(txtR.Text);
+double volume = (4 * Math.PI * Math.Pow(raio, 3))/3;
+MessageBox.Show("" + volume);
